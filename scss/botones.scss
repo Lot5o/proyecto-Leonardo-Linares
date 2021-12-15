@@ -1,0 +1,22 @@
+.boton {
+
+	background-color:map-get($paletaColores,RosaClaro);
+	text-align:center;
+	width:150px;
+	height:20px;
+	color:map-get($paletaColores,negro);
+	border-radius:20px;
+	border:1px solid black;
+}
+
+.boton--aceptar{
+	@extend .boton;
+	background-color:#00FFA5;
+	color:map-get($paletaColores,blanco);
+}
+
+.boton--cancelar{
+	@extend .boton;
+	background-color:#B22200;
+	color:map-get($paletaColores,blanco);
+}

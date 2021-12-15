@@ -1,0 +1,24 @@
+
+$paletaColores:(
+	rosa:#F2C9CC,
+	negro: #000000,
+	blanco: #ffffff,
+	gris:#BFBFBF,
+	rosaOscuro:#D98B91,
+	RosaClaro:#F2D8D8,
+	);
+
+h1 {
+
+	background-color:map-get($paletaColores,RosaClaro); 
+
+}
+
+h3{
+
+	color:map-get($paletaColores,rosaOscuro);
+}
+
+p{
+	color:map-get($paletaColores,negro);
+}

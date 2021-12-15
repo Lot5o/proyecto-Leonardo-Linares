@@ -1,3 +1,30 @@
-.navbar {
-	width: 1650px;
-}
+h1 {
+  background-color: #F2D8D8; }
+
+h3 {
+  color: #D98B91; }
+
+p {
+  color: #000000; }
+
+p {
+  font-style: arial;
+  color: red;
+  text-align: center; }
+
+.boton, .boton--aceptar, .boton--cancelar {
+  background-color: #F2D8D8;
+  text-align: center;
+  width: 150px;
+  height: 20px;
+  color: #000000;
+  border-radius: 20px;
+  border: 1px solid black; }
+
+.boton--aceptar {
+  background-color: #00FFA5;
+  color: #ffffff; }
+
+.boton--cancelar {
+  background-color: #B22200;
+  color: #ffffff; }

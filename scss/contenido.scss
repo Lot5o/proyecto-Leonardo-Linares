@@ -1,0 +1,12 @@
+
+
+
+@mixin tipografiaestilo ($tfuente, $tcolor, $taling){
+	font-style::$tfuente ;
+	color: $tcolor ;
+	text-align: $taling ;
+}
+
+p { 
+@include tipografiaestilo (arial, red, center);
+}
