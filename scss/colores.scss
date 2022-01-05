@@ -1,24 +1,39 @@
 
 $paletaColores:(
 	rosa:#F2C9CC,
-	negro: #000000,
-	blanco: #ffffff,
+	negro:#000000,
+	blanco:#D9D9D9,
 	gris:#BFBFBF,
 	rosaOscuro:#D98B91,
 	RosaClaro:#F2D8D8,
 	);
 
+
+
+a { color: inherit; }  
+
 h1 {
 
-	background-color:map-get($paletaColores,RosaClaro); 
+	background-color: map-get($paletaColores,RosaClaro); 
 
 }
 
-h3{
+h1 {background-color: map-get($paletaColores,rosaOscuro)}
 
-	color:map-get($paletaColores,rosaOscuro);
+h3{
+color: map-get($paletaColores,rosaOscuro);
 }
 
 p{
-	color:map-get($paletaColores,negro);
+	color: map-get($paletaColores,blanco);
 }
+
+body {
+	background-color: map-get($paletaColores,negro)
+
+}
+
+.navbar{
+	background-color: map-get($paletaColores,rosaOscuro)
+}
+
